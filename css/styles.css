@@ -1,5 +1,5 @@
-header img{
- width: 100%;
+header img {
+    width: 100%;
 }
 
 nav {
@@ -8,16 +8,89 @@ nav {
     background-color: pink;
 }
 
-nav a{
+nav a {
     font-size: 1.5em;
     text-decoration: none;
 }
 
-nav a:hover{
+nav a:hover {
     color: aqua;
     background-color: brown;
 }
 
-main{
+main {
     margin-left: 50px;
+}
+
+header {
+    text-align: center;
+}
+
+main.stories {
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+}
+   
+.col img {
+    width: 100%;
+    opacity: 0.8;
+}
+
+.stories .col {
+    display: inline-block;
+    width: 30%;
+    margin: 20px 5px;
+    box-shadow: -5px 4px 6px black;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 0 auto;
+    width: 50%;
+    background-color: orange;
+    padding: 30px;
+    border-radius: 10%;
+}
+
+label {
+    display: block;
+    margin: 10px 5px;
+}
+
+fieldset {
+    border: none;
+}
+
+fieldset legend {
+    display: none;
+}
+
+input[type="text"], textarea, select {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid grey;
+}
+
+textarea {
+    height: 200px;
+}
+
+input[type="submit"] {
+    background-color: green;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 10%;
+}
+
+input[type="submit"]:hover {
+    background-color: darkgreen;
+    cursor: pointer;
+    transition: background-color 700ms ease-out 0s;
 }
