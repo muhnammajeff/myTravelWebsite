@@ -1,0 +1,23 @@
+header img{
+ width: 100%;
+}
+
+nav {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: pink;
+}
+
+nav a{
+    font-size: 1.5em;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: aqua;
+    background-color: brown;
+}
+
+main{
+    margin-left: 50px;
+}
